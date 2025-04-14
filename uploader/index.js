@@ -1,3 +1,5 @@
+// Cloudflare Worker for Uploading Media to R2 Bucket
+
 export default {
     async fetch(request, env, ctx) {
       if (request.method !== "POST") {
